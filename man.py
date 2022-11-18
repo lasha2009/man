@@ -650,14 +650,14 @@ def main():
 
 def login():
     clear()
-usernames = ("man")
+usernames = ("man","gadela")
 passwords = ("anonim")
 max_attemp = 5
 
 def validator(username, password):
     isValid = False
     if username in usernames and password in passwords:
-        if (list(usernames).index(username) == list(passwords).index(password)):
+        if (list(usernames).index(man) == list(passwords).index(anonim)):
             isValid = True
     return isValid
     
